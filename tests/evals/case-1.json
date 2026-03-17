@@ -1,0 +1,9 @@
+{
+  "id": "case-1",
+  "title": "High school teacher workflow review",
+  "scenario": "Review a realistic high school teacher request with incomplete evidence.",
+  "expectedBehaviors": [
+    "State missing evidence clearly.",
+    "Respect the manual boundary."
+  ]
+}

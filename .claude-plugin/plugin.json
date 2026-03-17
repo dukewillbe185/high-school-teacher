@@ -1,0 +1,13 @@
+{
+  "name": "high-school-teacher",
+  "description": "Digital profile for a high school teacher with 8 captured skills. Strongest signals: Immediate Student Data Triage, Flexible Instructional Adaptation, Contextual Curriculum Adaptation, Immediate Classroom Disruption Triage. Coverage: 5 covered and 1 partial dimensions. Coverage is broad enough to move to blueprinting.",
+  "version": "1.0.0",
+  "agents": [
+    "./agents/"
+  ],
+  "mcpServers": {
+    "student-data-triage-tool": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/mcp/student-data-triage-tool/index.ts"
+    }
+  }
+}
